@@ -1,0 +1,29 @@
+.btn {
+  background-color: #dd807d63;
+  font-size: 1.2rem;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border: solid 0px;
+  border-radius: 1rem;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ffffff;
+  border-color: #dd807df8;
+  color: #dd807df8;
+
+  border: all 0.1px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}

@@ -1,0 +1,50 @@
+.btn:hover {
+  background-color: transparent;
+  border-color: #422919;
+  color: #422919;
+  font-size: 1rem;
+  border: all 0.1px;
+  border-radius: 0.8rem;
+}
+.img {
+  transition: all;
+  transition-duration: 0.5s;
+  height: 200px;
+}
+.img:hover {
+  background-color: #dd807d42;
+  opacity: 80%;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* .card {
+  height: 350px;
+} */
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 1024px) {
+  .btn:hover {
+    background-color: transparent;
+    border-color: #422919;
+    color: #422919;
+    font-size: 1rem;
+    border: all 0.1px;
+    border-radius: 0.8rem;
+  }
+  .img {
+    transition: all;
+    transition-duration: 0.5s;
+    height: 300px;
+  }
+  .img:hover {
+    background-color: #dd807d42;
+    opacity: 80%;
+  }
+  * {
+    font-family: "Poppins", sans-serif;
+  }
+  /* .card {
+    height: 450px;
+  } */
+}
